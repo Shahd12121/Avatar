@@ -1,0 +1,39 @@
+/* ===== Body Background with Hover Effect ===== */
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #01022d3d, #000), 
+              url("images/avatar.jpg") center/cover no-repeat;
+  transition: background 0.5s ease-in-out;
+}
+
+body:hover {
+  background: linear-gradient(to right, rgba(1, 2, 45, 0.7), rgba(0, 0, 0, 0.7)), 
+              url("images/avatar.jpg") center/cover no-repeat;
+}
+
+/* ===== Main Content Section ===== */
+.content {
+  max-width: 600px;
+  margin-top: 100px;
+}
+
+/* ===== Navbar Links ===== */
+.navbar a {
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* ===== Button Styling ===== */
+.content .btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.content .btn:hover {
+  background-color: rgba(1, 2, 45, 0.993);
+  border: none;
+  color: #ffffff;
+}
